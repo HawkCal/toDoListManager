@@ -1,0 +1,26 @@
+#listsMain {
+  background-color: whitesmoke;
+  padding: .5rem;
+}
+
+#listsMain>button {
+  margin-bottom: 1rem;
+  padding: .3rem .5rem;
+  font-size: .9rem;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #000;
+  width: 58px;
+}
+
+#listsMain>button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+#listsContainer {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
